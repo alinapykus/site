@@ -212,11 +212,13 @@ body {
     }
     .menu_list {
         min-height: 25vw;
+
         flex-direction: column;
       }
   
     .wrapper {
-      max-width: 61%
+      max-width: 61%;
+
     }
     .post-block {
       display: block;
@@ -240,10 +242,6 @@ body {
       line-height: 7vw;
       margin: 10px auto;
     }
-/*
-    .post-block:nth-child(even)  {
-      text-align: left;
-    } */
     .content:nth-child(even) {
         text-align: left;
     }
