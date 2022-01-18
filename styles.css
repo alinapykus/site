@@ -203,12 +203,14 @@ body {
   @media only screen and (max-width: 768px) {
   
     header,main,footer {
-      max-width: 97%;
+     /* max-width: 97%; */
       margin: auto;
+      max-width: calc(97% + (100% - 97%) * (100vw - 768px) / (1000 - 768px));
     }
   
     body {
-      line-height: 3.5vw;
+      line-height: 3.5vw; 
+     
     }
     .menu_list {
         min-height: 25vw;
@@ -247,6 +249,9 @@ body {
     }
     .news_block {
         max-width: 36%;
+      }
+      .news_content {
+        display: block;
       }
   
     .news_title {
